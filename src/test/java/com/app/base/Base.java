@@ -77,6 +77,10 @@ public class Base {
 		return getElement(locator).getText();
 	}
 
+	// **** 6. Click ****
+		public static void click1(WebElement locator) {
+			locator.click();
+		}
 
 	
 }
