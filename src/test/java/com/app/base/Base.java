@@ -77,6 +77,10 @@ public class Base {
 		return getElement(locator).getText();
 	}
 
+	// **** 9. Get Text ****
+	public static String getText1(By locator) {
+		return getElement(locator).getText();
+	}
 
 	
 }
