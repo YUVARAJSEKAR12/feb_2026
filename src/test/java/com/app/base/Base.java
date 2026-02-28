@@ -15,6 +15,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 //edit the file
+
+//changes
 public class Base {
 
 	public static WebDriver driver = null;
@@ -74,6 +76,16 @@ public class Base {
 	public static String getText(By locator) {
 		return getElement(locator).getText();
 	}
+
+	// **** 9. Get Text ****
+	public static String getText1(By locator) {
+		return getElement(locator).getText();
+	}
+	
+	// **** 6. Click ****
+			public static void click1(WebElement locator) {
+				locator.click();
+			}
 
 
 	
